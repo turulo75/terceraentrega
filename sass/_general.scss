@@ -1,0 +1,98 @@
+/* ----------------------------------*/
+/* -----------   General   ----------- */
+/* ----------------------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-family: $fuente-prim; /* 'Roboto', sans-serif; */ /*Fuente primaria*/
+    /* font-family: font-family: 'Lato', sans-serif;*/  /* fuente secundaria */ 
+}
+
+body{
+    /* color:white; */
+    background-color: $color-prim;
+    background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%23555359' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: $h1;
+    color:$color-sec;
+    /* font-size: 1rem; */
+}
+
+h2{
+    font-size: $h2;
+    color: $color-sec;
+    padding-top: 10px;
+    margin: 3px;
+}
+
+h3{
+    font-size: $h3;
+    color: $color-sec;
+    padding-top: 10px;
+    margin: 3px
+}
+
+h4{
+    font-size: $h4;
+    color: $color-sec;
+}
+
+h5{
+    font-size: $h5;
+    color: $color-sec;
+}
+
+h6{
+    font-size: $h6;
+    color: $color-sec;
+}
+
+p{
+    text-align: justify;
+    color: $color-ter;
+    padding-top: 15px;
+    font-size: $tamano-sec;
+}
+
+svg{
+    color:$color-sec;
+}
+
+img{    
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+span{
+    font-size: $fuente-sec;
+}
+span a{
+    color: $color-sec; /* color iconos redes sociales */
+    font-size: $fuente-sec;
+}
+
+a{
+    color:$color-prim;
+    text-decoration: none;
+}
+
+ul{
+    list-style:none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+col iframe{
+    width: auto;
+    right: auto;
+}

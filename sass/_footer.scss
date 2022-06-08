@@ -1,0 +1,42 @@
+
+/* seccion footer */
+.footerlink{
+    display: grid;
+    background-color: $color-footer;
+    color: $color-ter;
+    font-size: 12px;
+    padding: 5px;   
+}
+
+
+.col ul li{
+    line-height: 1.4;
+}
+.col a{
+    font-size: 14px;
+    color: $color-ter;
+    .col ul li a:hover{
+        font-size: 18px;
+        text-decoration: underline;
+        color: $color-sec;
+    }
+    .col iframe{
+        width: 850px;
+        /* width: 28vmax; */
+        height: 5vh;
+    }
+    
+    .col p{
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.copyright{
+    background-color: $color-prim;
+    color: $color-ter;
+    font-size: 15px;
+    padding: 12px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
